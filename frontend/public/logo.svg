@@ -1,0 +1,31 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="logoGradient" x1="0" y1="0" x2="512" y2="512"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#4F46E5" />
+            <stop offset="1" stop-color="#9333EA" />
+        </linearGradient>
+        <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+            <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.25" />
+        </filter>
+    </defs>
+
+    <!-- Background Container -->
+    <rect x="32" y="32" width="448" height="448" rx="128" fill="url(#logoGradient)" />
+
+    <!-- Main Icon Group -->
+    <g transform="translate(128, 128)">
+        <!-- Stylized 'S' / Networking Nodes -->
+        <path
+            d="M128 64 C92.65 64 64 92.65 64 128 V128 C64 163.35 92.65 192 128 192 H128 C163.35 192 192 220.65 192 256 V256 C192 291.35 163.35 320 128 320 H64"
+            stroke="white" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" />
+
+        <!-- Connectivity Dots -->
+        <circle cx="128" cy="64" r="24" fill="white" />
+        <circle cx="64" cy="320" r="24" fill="white" />
+        <circle cx="192" cy="192" r="16" fill="white" opacity="0.8" />
+
+        <!-- Event Spark -->
+        <path d="M180 60 L200 80 L220 60 L200 40 Z" fill="#FCD34D" />
+    </g>
+</svg>

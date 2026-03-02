@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<body style="margin:0; font-family: Arial, sans-serif; background:#f4f6f9;">
+    <table width="100%">
+        <tr>
+            <td align="center">
+                <table width="600"
+                    style="background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.08);">
+                    <tr>
+                        <td
+                            style="background:linear-gradient(90deg,#6f42c1,#b197fc); color:#fff; padding:25px; text-align:center;">
+                            <h1>💳 Payment Receipt</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:25px;">
+                            <p>Hello <b>{{userName}}</b>,</p>
+                            <p>Your payment was successful.</p>
+                            <table width="100%" style="background:#f6f0ff; padding:15px; border-radius:8px;">
+                                <tr>
+                                    <td><b>Event:</b> {{eventTitle}}</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Amount Paid:</b> ₹{{amountPaid}}</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Payment ID:</b> {{paymentId}}</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Date:</b> {{paymentDate}}</td>
+                                </tr>
+                            </table>
+                            <p style="margin-top:20px;">Thank you for your purchase!</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background:#f1f1f1; text-align:center; padding:15px; font-size:12px;">
+                            © 2026 SEMS • support@sems.com
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

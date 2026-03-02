@@ -1,0 +1,32 @@
+# Maven
+backend/target/
+backend/*.class
+backend/hs_err_pid*
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# Logs
+*.log
+backend/hs_err_pid*
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project Specific
+uploads/

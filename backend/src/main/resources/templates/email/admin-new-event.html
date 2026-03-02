@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<body style="margin:0; font-family: Arial, sans-serif; background:#f4f6f9;">
+    <table width="100%">
+        <tr>
+            <td align="center">
+                <table width="600"
+                    style="background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 4px 15px rgba(0,0,0,0.08);">
+                    <tr>
+                        <td
+                            style="background:linear-gradient(90deg,#343a40,#6c757d); color:#fff; padding:25px; text-align:center;">
+                            <h1>🔔 New Event Submitted</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:25px;">
+                            <p>Hello Admin,</p>
+                            <p>A new event requires approval.</p>
+                            <table width="100%" style="background:#f1f3f5; padding:15px; border-radius:8px;">
+                                <tr>
+                                    <td><b>Event:</b> {{eventTitle}}</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Organizer:</b> {{organizerName}}</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Submitted:</b> {{applyDate}}</td>
+                                </tr>
+                            </table>
+                            <div style="text-align:center; margin:30px;">
+                                <a href="{{reviewLink}}"
+                                    style="background:#343a40; color:#fff; padding:14px 24px; text-decoration:none; border-radius:6px; font-weight:bold;">
+                                    Review Event
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="background:#f1f1f1; text-align:center; padding:15px; font-size:12px;">
+                            © 2026 SEMS • support@sems.com
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
