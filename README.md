@@ -29,15 +29,15 @@ Event-Management-System/
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React 18+** - UI library
+- **React 18+** - Modern UI library
 - **JavaScript (ES6+)** - Modern JavaScript
 - **Responsive Design** - Mobile-friendly interface
 
 ### Backend
 - **Java 11+** - Programming language
-- **Spring Boot 2.7+** - Framework
+- **Spring Boot 2.7+** - Application framework
 - **Maven** - Build tool
-- **MySQL/MariaDB** - Database
+- **MySQL/MariaDB** - Relational database
 
 ## 🚀 Quick Start
 
@@ -63,31 +63,69 @@ start-frontend.bat
 
 ## 🎯 Key Features
 
-✅ Event Creation & Management  
-✅ Booking System  
-✅ Payment Processing  
-✅ Attendee Management  
-✅ Real-time Updates  
-✅ Analytics & Reports  
+✅ **Event Creation** - Create and manage events with detailed information  
+✅ **Booking System** - Seamless ticket booking functionality  
+✅ **Payment Processing** - Secure payment integration  
+✅ **Attendee Management** - Track and manage event attendees  
+✅ **Real-time Updates** - Live event status updates  
+✅ **Analytics & Reports** - Event performance analytics  
 
 ## 📊 API Testing
 
 Use the provided Postman collection for API testing:
-- File: `API_Tests.postman_collection.json`
-- Import into Postman to test all endpoints
 
-## 📚 Documentation
+**File**: `API_Tests.postman_collection.json`
+- View: https://github.com/AdityaPrasadSwain/Event-Management-System/blob/main/API_Tests.postman_collection.json
+- Download and import into Postman to test all endpoints
 
-- **System Design**: See `booking_system_design.md`
-- **API Tests**: Use `API_Tests.postman_collection.json`
+## 📚 Important Documentation Files
+
+### System Design
+- **File**: `booking_system_design.md`
+- **Path**: https://github.com/AdityaPrasadSwain/Event-Management-System/blob/main/booking_system_design.md
+- Contains complete system architecture and booking flow
+
+### API Testing
+- **File**: `API_Tests.postman_collection.json`
+- **Raw URL**: https://raw.githubusercontent.com/AdityaPrasadSwain/Event-Management-System/main/API_Tests.postman_collection.json
+- Import this collection into Postman for testing
+
+## 🔌 Quick Access Links
+
+| Resource | Link |
+|----------|------|
+| 🏗️ System Design | [booking_system_design.md](https://github.com/AdityaPrasadSwain/Event-Management-System/blob/main/booking_system_design.md) |
+| 🧪 API Tests | [API_Tests.postman_collection.json](https://github.com/AdityaPrasadSwain/Event-Management-System/blob/main/API_Tests.postman_collection.json) |
+| 🪟 Backend Startup | [start-backend.bat](https://github.com/AdityaPrasadSwain/Event-Management-System/blob/main/start-backend.bat) |
+| 🌐 Frontend Startup | [start-frontend.bat](https://github.com/AdityaPrasadSwain/Event-Management-System/blob/main/start-frontend.bat) |
+
+## 🐛 Troubleshooting
+
+### Port Issues
+- If port 8080 is in use, change port in `backend/application.properties`
+- If port 3000 is in use, change port in `frontend/.env`
+
+### Dependencies
+```bash
+# Frontend
+cd frontend
+rm -rf node_modules package-lock.json
+npm install
+
+# Backend
+cd backend
+mvn clean install
+```
 
 ## 📞 Support
 
 For issues or questions:
 1. Check the system design documentation
 2. Review API test collection
-3. Open a GitHub issue
+3. Open a GitHub issue with detailed information
 
 ---
 
-For more information, visit the [GitHub repository](https://github.com/AdityaPrasadSwain/Event-Management-System).
+**GitHub Repository**: https://github.com/AdityaPrasadSwain/Event-Management-System
+
+Made with ❤️ by Aditya Prasad Swain
